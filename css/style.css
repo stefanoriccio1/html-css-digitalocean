@@ -1,16 +1,31 @@
 /* debug */
-[class*="col-"]{
-  text-align: center;
-  vertical-align: middle;
-  height: 50%;
-  background-color: pink;
-  border: 1px solid black;
 
 /* general */
+
 .wrapper_80{
   width: 80%;
+  margin: 0 auto;
 }
+/* padding */
+.padding_bottom_40{
+  padding-bottom: 40px;
+}
+.padding_top_40{
+  padding-top: 40px;
+}
+.padding_bottom_20{
+  padding-bottom: 20px;
+}
+.padding_top_20{
+  padding-top: 20px;
+}
+
+/* headertop */
 .header_top{
   height: 80px;
   background-color: lightgreen;
+}
+/* header bottom */
+.header_bottom{
+  background-color: blue;
 }
