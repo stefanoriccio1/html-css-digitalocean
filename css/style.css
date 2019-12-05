@@ -1,5 +1,8 @@
 /* debug */
-
+[class*="col-"]{
+  background-color: pink;
+  border: 1px solid black;
+}
 /* general */
 
 .wrapper_80{
@@ -31,6 +34,13 @@
 }
 
 /* main */
+.customers{
+  background-color: lightyellow;
+}
+/* deploy */
+.deploy{
+  background-color: coral;
+}
 
 @media screen (min-width: 768px) and (max-width: 992px){
   .offset-md-4.disabled ul{
