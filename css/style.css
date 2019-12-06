@@ -15,6 +15,9 @@ h2,
 h3{
   color: white;
 }
+h1{
+  font-size: 50px;
+}
 .text_blue{
   color: #0467F6;
 }
@@ -106,13 +109,17 @@ h3{
   padding: 20px;
   border-radius: 5px;
 }
-.form_box p{
+.form_box p.text_blue{
 font-size: 1.8em;
 }
 .form-control {
   max-width: 100%;
   margin: 0 auto;
 }
+.form_box p.text_black{
+  margin-top: 8px;
+}
+
 /* main */
 .customers{
   background-color: lightyellow;
