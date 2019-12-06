@@ -24,6 +24,9 @@ h1{
 .text_black{
   color: black;
 }
+.text_grey{
+  color: grey;
+}
 /* chevron */
 .fas.fa-chevron-down{
   margin-left: 3px;
@@ -98,6 +101,7 @@ h1{
   vertical-align: middle;
 }
 /* header bottom */
+
 .header_bottom{
   margin-top: 80px;
 }
@@ -123,8 +127,23 @@ font-size: 1.8em;
   text-decoration: underline;
 }
 /* main */
+/* customers */
 .customers{
-  background-color: lightyellow;
+  background-color: #F3F5F9;
+}
+.customers h3,
+.customers h4{
+  font-size: 130%;
+}
+.customers .logos{
+line-height: 100px;
+vertical-align: middle;
+}
+.customers img{
+  max-width: 105px;
+}
+.grater{
+  margin-left: 5px;
 }
 
 /* deploy */
