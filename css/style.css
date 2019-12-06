@@ -42,10 +42,12 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  max-height: 80px;
+  height: 80px;
   line-height: 80px;
   vertical-align: middle;
   z-index: 3;
+  white-space:nowrap;
+  font-size: 13px;
 }
 .navbar ul li{
   display: inline-block;
@@ -59,19 +61,24 @@ body{
 .logo{
   max-width: 120px;
 }
-.button_me{
-  border: 1px solid #0467F6;
-  color: #0467F6 !important;
-  padding: 8px;
-  border-radius: 3px;
-}
-.button_me:hover{
-  background-color: #0467F6;
-  color: white !important;
-}
 .navbar .container-fluid ul li a:hover{
   color: #0467F6;
   cursor: pointer;
+}
+.navbar ul li a.button_me{
+  border: 1px solid #0467F6;
+  color: #0467F6;
+  padding: 8px;
+  border-radius: 3px;
+}
+.navbar ul li a.button_me:hover{
+  background-color: #0467F6;
+  color: white;
+}
+.burger{
+  font-size: 30px;
+  color: #0467F6;
+  vertical-align: middle;
 }
 /* header bottom */
 .header_bottom{
@@ -88,7 +95,5 @@ body{
 }
 
 @media screen (min-width: 768px) and (max-width: 992px){
-  .offset-md-4.disabled ul{
-    display: none;
-  }
+
 }
