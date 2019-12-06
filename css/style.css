@@ -1,10 +1,16 @@
 /* debug */
 [class*="col-"]{
-  background-color: pink;
-  border: 1px solid black;
+  /* background-color: pink;
+  border: 1px solid black; */
 }
 /* general */
 
+body{
+  font-family: Sailec-Medium,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.fas.fa-chevron-down{
+  margin-left: 3px;
+}
 .wrapper_80{
   width: 80%;
   margin: 0 auto;
@@ -29,14 +35,14 @@
 /* headertop */
 .header_top{
   height: 80px;
-  background-color: lightgreen;
+  background-color: white;
 }
 .navbar{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  max-height: 80px;
   line-height: 80px;
   vertical-align: middle;
   z-index: 3;
@@ -44,14 +50,21 @@
 .navbar ul li{
   display: inline-block;
   list-style: none;
-  color: #031A4D;
   margin-left: 10px;
+  font-size:13px
 }
 .navbar ul li a{
   text-decoration: none;
+    color: #031b4e;
 }
 .logo{
-  max-width: 100px;
+  max-width: 120px;
+}
+.button_me{
+  border: 1px solid #0467F6;
+  color: #0467F6 !important;
+  padding: 8px;
+  border-radius: 3px;
 }
 /* header bottom */
 .header_bottom{
