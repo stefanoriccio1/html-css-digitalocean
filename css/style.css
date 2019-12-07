@@ -232,6 +232,22 @@ font-size: 1.8em;
 .features h3{
   margin-bottom: 30px;
 }
+/* regions */
+.regions .fa-chevron-right{
+  font-size: 10px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+}
+.city_code{
+  margin-right: 24px;
+}
+.city{
+  margin-right: 70px;
+}
+.regions ul li{
+  white-space:nowrap;
+  border-bottom: 1px solid lightgrey;
+}
 
 @media (max-width: @screen-md-max) {
 .immagine img{
