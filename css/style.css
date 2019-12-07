@@ -150,19 +150,22 @@ font-size: 1.8em;
 }
 
 /* deploy */
-.deploy{
-  background-color: coral;
+.deploy p{
+  color: #5B678B;
 }
 .seamlessly{
   margin-bottom: 30px;
 }
 
+.main_list{
+  margin-top: 20px;
+}
 .main_list li{
   position: relative;
   list-style: none;
   color: lightgrey;
   border-left: 2px solid lightgrey;
-  line-height: 33px;
+  line-height: 50px;
   padding-left: 10px;
   margin-bottom: 0;
 }
@@ -177,7 +180,11 @@ font-size: 1.8em;
 }
 .deploy_box{
   margin-top: 20px;
+  line-height: 20px;
 }
+/* .deploy_box p{
+  color: #5B678B;
+} */
 
 
 @media screen (min-width: 768px) and (max-width: 992px){
