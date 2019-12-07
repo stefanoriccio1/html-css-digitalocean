@@ -233,16 +233,27 @@ font-size: 1.8em;
   margin-bottom: 30px;
 }
 /* regions */
+.regions h3{
+  margin-bottom: 30px;
+}
 .regions .fa-chevron-right{
   font-size: 10px;
   margin-left: 3px;
   margin-bottom: 3px;
 }
+.regions{
+  background-image:linear-gradient(darkblue, blue)
+}
 .city_code{
   margin-right: 24px;
+  color:white;
 }
 .city{
   margin-right: 70px;
+  color: lightgrey;
+}
+.test_speed a{
+  color: 	#7fffd4
 }
 .regions ul li{
   white-space:nowrap;
