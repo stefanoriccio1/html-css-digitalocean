@@ -139,8 +139,8 @@ font-size: 1.8em;
   font-size: 130%;
 }
 .customers .logos{
-line-height: 100px;
-vertical-align: middle;
+  line-height: 100px;
+  vertical-align: middle;
 }
 .customers img{
   max-width: 105px;
@@ -160,14 +160,25 @@ vertical-align: middle;
 .main_list li{
   position: relative;
   list-style: none;
-  margin-bottom: 10px;
   color: lightgrey;
+  border-left: 2px solid lightgrey;
+  line-height: 33px;
+  padding-left: 10px;
+  margin-bottom: 0;
 }
 
 .main_list li:hover{
   color: black;
   cursor: pointer;
 }
+.main_list li:first-child{
+  color: black;
+  border-left: 2px solid blue;
+}
+.deploy_box{
+  margin-top: 20px;
+}
+
 
 @media screen (min-width: 768px) and (max-width: 992px){
 
