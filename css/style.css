@@ -18,6 +18,9 @@ h3{
 h1{
   font-size: 50px;
 }
+h4{
+  color: #031B4E;
+}
 .text_blue{
   color: #0467F6;
 }
@@ -25,7 +28,10 @@ h1{
   color: black;
 }
 .text_grey{
-  color: grey;
+  color: #5B678B;
+}
+.text_title{
+  color:#031B4E;
 }
 /* chevron */
 .fas.fa-chevron-down{
@@ -35,6 +41,10 @@ h1{
 /* wrappers */
 .wrapper_80{
   width: 80%;
+  margin: 0 auto;
+}
+.wrapper_60{
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -150,7 +160,8 @@ font-size: 1.8em;
 }
 
 /* deploy */
-.deploy p{
+.deploy p,
+.features p{
   color: #5B678B;
 }
 .seamlessly{
@@ -180,13 +191,50 @@ font-size: 1.8em;
 }
 .deploy_box{
   margin-top: 20px;
-  line-height: 20px;
+  line-height: 25px;
 }
-/* .deploy_box p{
-  color: #5B678B;
-} */
 
+/* developers */
+.immagine{
+  margin-top: 30px;
+}
+.immagine img{
+  width: 60%;
+}
+.immagine .fa-chevron-left{
+  margin-right: 5px;
+  font-size: 30px;
+  color: lightgrey;
+}
+.immagine .fa-chevron-right{
+  margin-left: 5px;
+  font-size: 30px;
+}
+.developers .text_grey{
+  margin-top: 20px;
+  font-size: 17px;
+}
+/* list{} */
 
-@media screen (min-width: 768px) and (max-width: 992px){
+.circle li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  font-size: 60%;
+}
+.circle{
+  padding: 0;
+}
+.fa-circle{
+  color: #0467F6;
+}
+/* features */
+.features h3{
+  margin-bottom: 30px;
+}
 
+@media (max-width: @screen-md-max) {
+.immagine img{
+  width: 100%;
+}
 }
