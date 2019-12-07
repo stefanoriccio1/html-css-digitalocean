@@ -258,6 +258,13 @@ font-size: 1.8em;
 .regions ul li{
   white-space:nowrap;
   border-bottom: 1px solid lightgrey;
+  list-style: none;
+  margin-top: 5px;
+}
+/* digital */
+.rocker{
+  margin: 30px auto;
+  width: 30%;
 }
 
 @media (max-width: @screen-md-max) {
