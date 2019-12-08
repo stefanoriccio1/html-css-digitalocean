@@ -316,6 +316,13 @@ font-size: 1.8em;
 .footer_top ul{
   list-style: none;
 }
+.social li{
+  display: inline-block;
+  margin-right: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+
 
 @media (max-width: @screen-md-max) {
 .immagine img{
