@@ -305,16 +305,16 @@ font-size: 1.8em;
 }
 
 /* footer top*/
-.footer_top{
+.footer{
   background-color: #010E28;
-  border-bottom: 1px solid #353D53;
 }
 .first{
   color: white;
   margin-bottom: 10px;
 }
-.footer_top ul{
+.footer ul{
   list-style: none;
+  padding-left: 0
 }
 .social li{
   display: inline-block;
@@ -322,8 +322,6 @@ font-size: 1.8em;
   text-align: left;
   font-size: 20px;
 }
-
-
 @media (max-width: @screen-md-max) {
 .immagine img{
   width: 100%;
