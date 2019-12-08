@@ -304,15 +304,16 @@ font-size: 1.8em;
   color: #0567F6;
 }
 
-/* footer */
-.footer{
+/* footer top*/
+.footer_top{
   background-color: #010E28;
+  border-bottom: 1px solid #353D53;
 }
 .first{
   color: white;
   margin-bottom: 10px;
 }
-.footer ul{
+.footer_top ul{
   list-style: none;
 }
 
