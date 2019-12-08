@@ -115,8 +115,11 @@ h4{
 .header_bottom{
   margin-top: 80px;
 }
+
 .header_bottom{
-  background:#0248ff;
+  background-image: url(../img/bg_home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .form_box{
   background-color: white;
@@ -195,6 +198,9 @@ font-size: 1.8em;
 }
 
 /* developers */
+.developers{
+  background-color: #F3F5F9;
+}
 .immagine{
   margin-top: 30px;
 }
@@ -262,13 +268,36 @@ font-size: 1.8em;
   margin-top: 5px;
 }
 /* digital */
+.digital{
+  background-color: #F3F5F9;
+}
+.box_digital{
+  display: inline-block;
+}
 .rocker{
   margin: 30px auto;
   width: 30%;
+}
+.co_founder{
+  border: 1px solid lightgrey;
+}
+.efficient {
+  font-size: 20px;
+  font-family:Sailec-Light, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: lightgrey;
+}
+
+/* getstarted */
+.getstarted{
+  background-image: url(../img/bg_home.jpg);
+  background-repeat: no-repeat;
+  background-position:bottom;
+}
+.getstarted h3{
+  margin-bottom: 30px;
 }
 
 @media (max-width: @screen-md-max) {
 .immagine img{
   width: 100%;
-}
 }
