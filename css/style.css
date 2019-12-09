@@ -342,6 +342,20 @@ font-size: 1.8em;
   text-align: left;
   font-size: 20px;
 }
+
+/* media query */
+
+@media screen and (max-width: 768px){
+  .inline_list li{
+    display: inline-block;
+    list-style: none;
+    width: calc((100% / 2) - 3px)
+  }
+  .inline_list img{
+    max-width: 100%;
+    vertical-align: middle;
+  }
+}
 @media (max-width: @screen-md-max) {
 .immagine img{
   width: 100%;
