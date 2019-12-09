@@ -350,6 +350,25 @@ font-size: 1.8em;
   font-size: 20px;
   color:lightgrey;
 }
+/* shark container */
+
+.shark_container::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.shark{
+  float: right;
+  bottom: 0;
+  right: 0;
+}
+.shark img,{
+  width: auto;
+  height: 50px;
+  vertical-align: middle;
+  z-index: 5;
+}
+
 
 /* media query */
 
