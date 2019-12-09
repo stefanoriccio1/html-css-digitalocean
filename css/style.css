@@ -328,19 +328,27 @@ font-size: 1.8em;
 .footer{
   background-color: #010E28;
 }
-.first{
-  color: white;
-  margin-bottom: 10px;
-}
+
 .footer ul{
   list-style: none;
   padding-left: 0
+}
+.footer_ul li a{
+  color: #333;
+  text-decoration: none;
+}
+.footer_ul li .first{
+  color: white;
+}
+.footer_ul li:first-child{
+  margin-bottom: 10px;
 }
 .social li{
   display: inline-block;
   margin-right: 20px;
   text-align: left;
   font-size: 20px;
+  color:lightgrey;
 }
 
 /* media query */
