@@ -1,8 +1,3 @@
-/* debug */
-[class*="col-"]{
-  /* background-color: pink;
-  border: 1px solid black; */
-}
 /* general */
 
 body{
@@ -283,6 +278,9 @@ font-size: 1.8em;
 .box_digital{
   display: inline-block;
 }
+.dev_text p{
+  margin-bottom: 20px;
+}
 .rocker{
   margin: 30px auto;
   width: 30%;
@@ -320,7 +318,7 @@ font-size: 1.8em;
   color: #0567F6;
 }
 .account:hover{
-  background-color: rgba(0,0,0,0.8)
+  background-color: rgba(0,0,0,0.8);
   color: #0567F6;
 }
 
@@ -350,25 +348,6 @@ font-size: 1.8em;
   font-size: 20px;
   color:lightgrey;
 }
-/* shark container */
-
-.shark_container::after{
-  content: "";
-  clear: both;
-  display: table;
-}
-.shark{
-  float: right;
-  bottom: 0;
-  right: 0;
-}
-.shark img,{
-  width: auto;
-  height: 50px;
-  vertical-align: middle;
-  z-index: 5;
-}
-
 
 /* media query */
 
@@ -382,8 +361,4 @@ font-size: 1.8em;
     max-width: 100%;
     vertical-align: middle;
   }
-}
-@media (max-width: @screen-md-max) {
-.immagine img{
-  width: 100%;
 }
