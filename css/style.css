@@ -147,17 +147,26 @@ font-size: 1.8em;
 .customers{
   background-color: #F3F5F9;
 }
+.inline_list li{
+  display: inline-block;
+  list-style: none;
+  width: calc((100% / 6) - 3px)
+}
+.inline_list img{
+  width: 100%;
+  vertical-align: middle;
+}
 .customers h3,
 .customers h4{
   font-size: 130%;
 }
-.customers .logos{
+/* .customers .logos{
   line-height: 100px;
   vertical-align: middle;
-}
-.customers img{
+} */
+/* .customers img{
   max-width: 105px;
-}
+} */
 .grater{
   margin-left: 5px;
 }
