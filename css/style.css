@@ -251,11 +251,11 @@ font-size: 1.8em;
   background-image:linear-gradient(darkblue, blue)
 }
 .city_code{
-  margin-right: 24px;
+  margin-right: 7%;
   color:white;
 }
 .city{
-  margin-right: 70px;
+  margin-right: 15%;
   color: lightgrey;
 }
 .test_speed a{
