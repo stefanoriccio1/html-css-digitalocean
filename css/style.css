@@ -91,35 +91,36 @@ h4{
   cursor: pointer;
 }
 .navbar ul li a.button_me{
-  border: 1px solid #0467F6;
-  color: #0467F6;
   padding: 8px;
   border-radius: 3px;
+  border: 1px solid #0467F6;
+  color: #0467F6;
+
 }
 .navbar ul li a.button_me:hover{
   background-color: #0467F6;
   color: white;
 }
 .burger{
+  vertical-align: middle;
   font-size: 30px;
   color: #0467F6;
-  vertical-align: middle;
+
 }
 /* header bottom */
 
 .header_bottom{
   margin-top: 80px;
 }
-
 .header_bottom{
   background-image: url(../img/bg_home.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .form_box{
-  background-color: white;
   padding: 20px;
   border-radius: 5px;
+  background-color: white;
 }
 .form_box p.text_blue{
 font-size: 1.8em;
@@ -144,8 +145,8 @@ font-size: 1.8em;
 }
 .inline_list li{
   display: inline-block;
+  width: calc((100% / 6) - 3px);
   list-style: none;
-  width: calc((100% / 6) - 3px)
 }
 .inline_list img{
   width: 100%;
@@ -155,13 +156,7 @@ font-size: 1.8em;
 .customers h4{
   font-size: 130%;
 }
-/* .customers .logos{
-  line-height: 100px;
-  vertical-align: middle;
-} */
-/* .customers img{
-  max-width: 105px;
-} */
+
 .grater{
   margin-left: 5px;
 }
@@ -181,11 +176,11 @@ font-size: 1.8em;
 .main_list li{
   position: relative;
   list-style: none;
-  color: lightgrey;
   border-left: 2px solid lightgrey;
   line-height: 50px;
   padding-left: 10px;
   margin-bottom: 0;
+  color: lightgrey;
 }
 
 .main_list li:hover{
@@ -193,8 +188,8 @@ font-size: 1.8em;
   cursor: pointer;
 }
 .main_list li:first-child{
-  color: black;
   border-left: 2px solid blue;
+  color: black;
 }
 .deploy_box{
   margin-top: 20px;
@@ -267,9 +262,9 @@ font-size: 1.8em;
 }
 .regions ul li{
   white-space:nowrap;
+  margin-top: 5px;
   border-bottom: 1px solid lightgrey;
   list-style: none;
-  margin-top: 5px;
 }
 /* digital */
 .digital{
@@ -286,8 +281,8 @@ font-size: 1.8em;
   width: 30%;
 }
 .co_founder{
-  border: 1px solid lightgrey;
   display: inline-block;
+  border: 1px solid lightgrey;
   vertical-align: middle;
 }
 .box_digital::before{
@@ -332,8 +327,8 @@ font-size: 1.8em;
   padding-left: 0
 }
 .footer_ul li a{
-  color: #333;
   text-decoration: none;
+  color: #333;
 }
 .footer_ul li .first{
   color: white;
