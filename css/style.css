@@ -145,7 +145,7 @@ font-size: 1.8em;
 }
 .inline_list li{
   display: inline-block;
-  width: calc((100% / 6) - 4px);
+  width: calc((100% / 6) - 10px);
   list-style: none;
 }
 .inline_list img{
